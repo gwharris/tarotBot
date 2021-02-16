@@ -25,6 +25,5 @@ jobs:
  
     - name: Run your script
       run: |
-        pip install tweepy
         cd bot
         python3 bot.py
