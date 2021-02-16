@@ -25,7 +25,7 @@ jobs:
  
     - name: Run your script
       run: |
-        python -m pip install --upgrade pip
-        pip install tweepy
+        python3 -m pip3 install --upgrade pip3
+        pip3 install tweepy
         cd bot
         python3 bot.py
