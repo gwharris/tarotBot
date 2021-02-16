@@ -8,7 +8,7 @@ name: Python package
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '*/60 14 * * *'
+    - cron:  '5 * * * *'
 
 jobs:
   build:
@@ -25,4 +25,5 @@ jobs:
  
     - name: Run your script
       run: |
-        bot.py
+        cd bot
+        python3 bot.py
