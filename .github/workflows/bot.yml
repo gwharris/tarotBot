@@ -20,10 +20,11 @@ jobs:
     # Does code have dependencies? Might not need this part
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
+        python3 -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
  
     - name: Run your script
       run: |
+        pip install tweepy
         cd bot
         python3 bot.py
