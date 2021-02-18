@@ -15,16 +15,15 @@ api = tweepy.API(auth)
 # Random variables
 num_pos = random.randint(0,13)
 suit_pos = random.randint(0,3)
-major_pos = random.randint(0, 21)
 
 try:
   # Verify connection to API
   api.verify_credentials()
   print("Authentication OK")
   # Randomize chance of major and minor arcana
-  card_chosen = random.randint(0,77)
+  card_chosen = random.randint(0,21)
   if (card_chosen <= 21): # Major arcana
-    api.update_status("✨\n" + cards.major[major_pos] + "\n✨" + "\n\nKeywords: " + cards.major_desc[major_pos])
+    api.update_status("✨\n" + cards.major[card_chosen] + "\n✨" + "\n\nKeywords: " + cards.major_desc[card_chosen-1])
   else: # Minor arcana
     api.update_status("✨\n" + cards.numbers[num_pos] + " of " + cards.suits[suit_pos] + "\n✨" + "\n\nKeywords: " + cards.minor_desc[suit_pos][num_pos])
 except:
