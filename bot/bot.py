@@ -3,10 +3,10 @@ import random
 import cards
 
 # Keys needed to connect to Twitter API
-CONSUMER_KEY = ''
-CONSUMER_SECRET = ''
-ACCESS_KEY = ''
-ACCESS_SECRET = ''
+# CONSUMER_KEY = ''
+# CONSUMER_SECRET = ''
+# ACCESS_KEY = ''
+# ACCESS_SECRET = ''
 
 # Use Tweepy to tweet
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
