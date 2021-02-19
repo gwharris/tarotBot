@@ -2,7 +2,7 @@
 
 Created by Graham Harris \
 \
-This bot reads a daily tarot card every morning and tweets the result to the profile @daily_tarotbot.
+This bot reads a daily tarot card every morning and tweets the result to the profile [@daily_tarotbot](https://twitter.com/daily_tarotbot).
 
 ## Usage
 
