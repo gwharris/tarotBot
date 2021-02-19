@@ -99,26 +99,26 @@ major = [ # Major arcana
   "XXI - The World"
 ]
 major_desc = [ # Major descriptions
-  "carefree, whimsical, fresh start", # Fool
-  "manifesting, growth", # Mag
-  "intelligence, balance", # Priestess
-  "maternal, nurturing, emotional", #Empress
-  "fiery, logical, power", # Emperor
-  "authority, religion, & spirituality" # Hiero
-  "love, support, mutuality", # Lovers
-  "progression, journey", # Chariot
-  "strength, willpower", # Strength
-  "analyzing, critical thinking, solitude", # Hermit
-  "karma, constant change, cycles", # Wheel
-  "justice, fairness, truth", # Justice
-  "pause, new perspective", # Hanged
-  "rebirth, transformation, finality", # Death
-  "patience, balance, centering", # Temp
-  "greed, guilt, obsession", # Devil
-  "upheaval, chaos, awakening", # Tower
-  "healing, rejuvenation", # Star
-  "illusion, guidance, subconscious", # Moon
-  "positivity, success, vitality", # Sun
-  "judgement, absolution, self-doubt", # Judge
-  "completion, accomplishment, delays" # World
+  "carefree, whimsical, fresh start", # Fool 0
+  "manifesting, growth", # Mag 1
+  "intelligence, balance", # Priestess 2
+  "maternal, nurturing, emotional", #Empress 3
+  "fiery, logical, power", # Emperor 4
+  "authority, religion, & spirituality", # Hiero 5
+  "love, support, mutuality", # Lovers 6
+  "progression, journey", # Chariot 7
+  "strength, willpower", # Strength 8
+  "analyzing, critical thinking, solitude", # Hermit 9
+  "karma, constant change, cycles", # Wheel 10
+  "justice, fairness, truth", # Justice 11
+  "pause, new perspective", # Hanged 12
+  "rebirth, transformation, finality", # Death 12
+  "patience, balance, centering", # Temp 14
+  "greed, guilt, obsession", # Devil 15
+  "upheaval, chaos, awakening", # Tower 16
+  "healing, rejuvenation", # Star 17
+  "illusion, guidance, subconscious", # Moon 18
+  "positivity, success, vitality", # Sun 19
+  "judgement, absolution, self-doubt", # Judge 20
+  "completion, accomplishment, delays" # World 21
 ]
