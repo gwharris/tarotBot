@@ -7,8 +7,7 @@ This bot reads a daily tarot card every morning and tweets the result to the Twi
 ## Usage
 
 **cards.py**\
-A set of lists that describe each of the tarot cards in the deck and what they mean.\
-
+A set of lists that describe each of the tarot cards in the deck and what they mean.
 \
 **bot.py**\
 The main bot. Enter consumer and access keys to operate the bot on a local machine.
