@@ -1,4 +1,4 @@
-# ✨Daily Tarot✨
+# ✨ Daily Tarot ✨
 
 Created by Graham Harris \
 \
