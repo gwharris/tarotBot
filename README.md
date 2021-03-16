@@ -1,6 +1,6 @@
 # ✨ Daily Tarot ✨
 
-Created by Graham Harris \
+*Created by Graham Harris* \
 \
 This bot reads a daily tarot card every morning and tweets the result to the Twitter profile [@daily_tarotbot](https://twitter.com/daily_tarotbot).
 
