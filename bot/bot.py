@@ -26,11 +26,10 @@ try:
 
   if (card_chosen <= 21):
     print("Major")
-    api.update_status("✨\n" + cards.major[card_chosen] + "\n✨" + "\n\nKeywords: " + cards.major_desc[card_chosen])
+    api.update_status("✨\n" + cards.major[card_chosen] + "\n✨" + "\n\nKeywords: " + cards.major_desc[card_chosen] + "\n#tarot #bot")
   else: 
     print("Minor")
-    api.update_status("✨\n" + cards.numbers[num_pos] + " of " + cards.suits[suit_pos] + "\n✨" + "\n\nKeywords: " + cards.minor_desc[suit_pos][num_pos])
+    api.update_status("✨\n" + cards.numbers[num_pos] + " of " + cards.suits[suit_pos] + "\n✨" + "\n\nKeywords: " + cards.minor_desc[suit_pos][num_pos] + "\n#tarot #bot")
 
 except:
   print("Error during program")
-
