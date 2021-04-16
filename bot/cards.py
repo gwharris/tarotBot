@@ -1,3 +1,4 @@
+# --------------- MINOR ---------------
 numbers = [ # Numbers
   "Ace", "Two", "Three", "Four", 
   "Five", "Six", "Seven", "Eight", 
@@ -74,6 +75,7 @@ minor_desc = [ # Minor descriptions
     "compassion, diplomacy" # K
   ]
 ]
+# --------------- MAJOR ---------------
 major = [ # Major arcana
   "0 - The Fool",
   "I - The Magician",
